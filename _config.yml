@@ -13,15 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: "ko"
 title: 개발자의 끄적이는 공간
+title_separator : "-"
+name: "Aerain"
 email: j40f893@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   그냥 놀고먹는 곳이에오
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
+repository: "aerain/aerain.github.io"
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-prologue
+collections: [sections]
 # remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
